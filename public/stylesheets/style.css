@@ -1,0 +1,462 @@
+
+body {
+  background: url('/images/luxury-car-fight.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+textarea {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#join{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#tlga {
+  padding-left: 300px
+  position: relative;
+  bottom: 67px;
+}
+
+#link, #sign {
+  color: orange;
+  font-size: 16px;
+}
+#txarea {
+  color: black
+  position: left;
+}
+
+}
+li{
+  color: #000000;
+}
+
+.tabcontent{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+
+
+h3{
+  color: red;
+  text-shadow: 0 0 3px #ffffff;
+}
+
+.cars{
+  color: white;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+form{
+  color: Black;
+}
+
+#intro{
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+}
+
+#r8{
+  padding-left: 20px;
+}
+
+#res, #sub{
+  color: black;
+}
+
+#hi{
+  color: black;
+  text-shadow: 0 0 3px #ffffff;
+  text-indent: 15px;
+}
+
+#top{
+  color: black;
+  text-shadow: 0 0 3px #ffffff;
+  text-indent: 25px;
+}
+
+#ece{
+  color: black;
+  text-shadow: 0 0 3px white;
+}
+
+#edi, #BMWedi, #Audiedi{
+  color: black;
+}
+
+#update{
+  color: #ffffff;
+  text-shadow: 0 0 6px black;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 1em/1.5 "Neuton";
+}
+
+/* Style tabs */
+.Hometablink {
+  background-color: #000000;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+  width: 25%;
+}
+
+/*-------*/
+
+.Auditablink {
+  background-color: #000000;
+  color: red;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+  width: 25%;
+}
+
+/* Style tabs with the hover feature */
+.Auditablink:hover {
+  background-color: red;
+  background-position: center;
+  color: #000000;
+}
+
+#auditext{
+  color: white;
+}
+
+/* Style the content inside the tabs */
+
+#AudiHome {
+  background-image: url('/images/audiup.jpg');
+  background-position: center;
+  background-size: cover;
+
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+/*-------*/
+
+.BMWtablink {
+  background-color: #000000;
+  color: #0000ff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+  width: 25%;
+}
+
+.BMWtablink:hover {
+  background-color: #0000ff;
+  background-position: center;
+  color: #FFFFFF
+}
+
+
+
+#BMWHome {
+  background-image: url('/images/BMW-Logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+
+  color: white;
+  display: none;
+  height: 100%;
+}
+
+#beamer{
+  color: white;
+  text-shadow: 0 0 13px #3385ff, 0 0 15px #3385ff;
+}
+
+#mpower{
+  color: white;
+  text-shadow: 0 0 3px #3385ff, 0 0 5px #3385ff;
+}
+
+#bmwcont{
+  padding-top: 275px;
+}
+
+#bmwpic{
+  top: 425px;
+  position: absolute;
+}
+
+#bmwvid{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 850px;
+  top: 420px;
+  right: 5px;
+
+  width: 515px;
+}
+
+/*-------*/
+
+.Merctablink {
+  background-color: #000000;
+  color: #a6a6a6;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+  width: 25%;
+}
+
+.Merctablink:hover {
+  background-color: #a6a6a6;
+  background-position: center;
+  color: #000000
+}
+
+#MercHome {
+  background-image: url('/images/Mercedes-Benz-Logo-2017.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#silver{
+  color: silver;
+  text-shadow: 2px 2px #000000;
+}
+
+/*-------*/
+
+#clock {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 250px; width: 250px;
+    border: 1px solid #bbb;
+}
+
+#modlist {
+  color: black;
+  height: 250px; width: 350px;
+  border: 1px solid #bbb;
+  position: absolute;
+  left: 410px;
+  top: 422px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#dropp {
+  color: black;
+  height: 20px; width: 250px;
+  border: 1px solid #bbb;
+  position: absolute;
+  left: 409px;
+  top: 335px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#drops {
+  color: black;
+  height: 20px; width: 250px;
+  border: 1px solid #bbb;
+  position: absolute;
+  left: 409px;
+  top: 375px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#addcar{
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+  position: absolute;
+  left: 409px;
+  top: 315px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#addmods{
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+  position: absolute;
+  left: 409px;
+  top: 403px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#addmodel{
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+  position: absolute;
+  left: 409px;
+  top: 355px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#addpic{
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#keep {
+  color: white;
+  background-color: black;
+}
+
+span{
+  color: #66ff33;
+  text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+}
+
+#clogs{
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+}
+
+#video{
+  position: absolute;
+  left: 770px;
+  top: 235px;
+  right: 5px;
+  bottom: 115px;
+  width: 515px;
+  height: 250px;
+}
+
+#videos{
+  position: absolute;
+  left: 775px;
+  top: 422px;
+  right: 5px;
+  bottom: 115px;
+  width: 515px;
+  height: 250px;
+}
+
+#feature{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 830px;
+  top: 173px;
+  right: 5px;
+  bottom: 15px;
+  width: 515px;
+}
+
+#features{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 850px;
+  top: 355px;
+  right: 5px;
+  bottom: 15px;
+  width: 515px;
+}
+
+#featurette{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 840px;
+  top: 365px;
+  right: 5px;
+  bottom: 15px;
+  width: 515px;
+}
+
+#welcomeeuro{
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+#mercedit, #update{
+  padding-left: 15px;
+}
+
+#amg{
+  padding-bottom: 215px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#Audiedit, #updated{
+  padding-left: 15px;
+}
+
+#audis6{
+  padding-bottom: 215px;
+}
+
+#audivid{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 850px;
+  top: 0px;
+  right: 5px;
+  bottom: 200px;
+  width: 515px;
+}
+
+#mercvid{
+  color: black;
+  text-shadow: 2px 2px white;
+  position: absolute;
+  left: 850px;
+  top: 0px;
+  right: 5px;
+  bottom: 200px;
+  width: 515px;
+}
+
+#videovid{
+  position: absolute;
+  left: 770px;
+  top: 425px;
+  right: 5px;
+  bottom: 115px;
+  width: 515px;
+  height: 250px;
+}

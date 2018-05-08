@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{title}}</title>
+
+  <!--Add image to web tab-->
+  <link rel="shortcut icon" type="image/ico" href="flag.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <meta charset="UTF-8">
+
+  <style>
+    .jumbotron {
+      background: url('images/cf.jpg');
+      color: grey;
+      font-size: 54px;
+    }
+    .cars{
+      text-align: center;
+    }
+  </style>
+
+  <!--Create title for web tab-->
+  <title>German Luxury</title>
+
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+</head>
+
+<script src="javascripts/Macon.js"></script>
+
+<body onload="usersChange()">
+
+  <button class="Auditablink" onclick="openPage('AudiHome')" >Audi S6</button>
+  <button class="BMWtablink" onclick="openPage('BMWHome')">BMW M5</button>
+  <button class="Merctablink" onclick="openPage('MercHome')">Mercedes E63</button>
+  <button class="Hometablink" onclick="openPage('Home')">Home</button>
+
+  <!--Create tab section for Home section-->
+  <div id="Home" class="tabcontent">
+
+<!--<h1>THIS SHOULD BE THE HOME PAGE</H1>-->
+    <!--todo move home page here-->
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="cars">Euro Sport Luxury Cars</h1>
+      </div>
+
+    {{{body}}}
+
+        <br>
+        <h1 id="ece"><u>European Car Enthusiasts</u></h1>
+        <div class="row">
+          <div class='col-sm-6'>
+            <p id='sign'><font color="white">Welcome to ECE! Each week we showcase three different European luxury sport vehicles. Learn about some of Europe's most popular sport luxury rides. Founded in the later half of 2017, ECE has gone through some pretty major changes over the past few months. One thing has always remained constant though, the fact that it's run by true enthusiasts with a genuine love for the brands and for automobiles in general. Created out of the desire to see a friendly and interesting community of enthusiasts that were much like ourselves.</font></p>
+          </br>
+        </div>
+        <div id='tlga' class='col-sm-6'>
+          <h1 id='top'><u>Top luxury German autos</u></h1>
+          <ul>
+            <li><a id='link' href="http://www.audi.com">Audi</a><font color="white">, is a German automobile manufacturer that designs, engineers, produces, markets and distributes luxury vehicles. Audi is a member of the Volkswagen Group and has its roots at Ingolstadt, Bavaria, Germany. Audi-branded vehicles are produced in nine production facilities worldwide.</font></li><br>
+            <li><a id='link' href="http://www.bmw.com">BMW</a><font color="white">, is a German multinational automotive manufacturing company which currently produces automobiles and motorcycles, and also produced aircraft engines until 1945.</font></li><br>
+            <li><a id='link' href="http://mercedes.com">Mercedes</a><font color="white">, is a global automobile marque and a division of the German company Daimler AG. The brand is known for luxury vehicles, buses, coaches, and lorries. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz.</font></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Create tab for Audi section-->
+  <div id="AudiHome" class="Audi tabcontent">
+    <h3><font size='6'><u>Audi</u></font></h3>
+    <p>Vorsprung durch Technik</p><br>
+    <div id="Audiedit" contenteditable="true">
+      <p id="auditext">The Audi S6 4.0 TFSI quattro and its mechanical twin S7 were launched as a 2013 models, a year after the C7 Audi A6 and Audi A7 were released.
+        The Audi S6 and S7 are powered by a 4.0L DOHC twin-turbo V8 engine mated to a 7-speed S-tronic Double Clutch Gearbox. This engine makes 420 hp and 405 lb-ft of torque, plus there is a cylinder-deactivation system and a stop-start system for improved fuel economy. The 2013 Audi A8 shares the same engine, while the 2012 Audi S8 has a variant of the powerplant in a higher state of tune making 520 hp and 479 lb-ft of torque, both mated to an 8-speed automatic transmission.</p>
+      </div>
+
+      <div id="updated">- Add to or edit the above text -
+      <input id="Audiedi"type="button" value="Save changes" onclick="AudiuserEdits()"/></div>
+      <br>
+      <div id="audis6" class='col-sm-5'>
+        <img src="images/2013-audi-s6.jpg" class="w3-round" alt="M5" style="width:600px; height:300px;">
+        <p id="auditext"><font size='4'><i>"The <a href="https://www.audiusa.com/models/audi-s6">Audi S6</a> delivers maximum performance - and more. The National Highway Traffic Safety Association's (NHTSA) New Car Assessment Program (NCAP) awarded the 2018 Audi S6 a 5-Star Overall Safety Rating, its top rating to give".</i></font></p>
+
+        <iframe id="audivid" width="560" height="315" src="https://www.youtube.com/embed/fbBUpbRndx8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!--Create tab for BMW section-->
+    <div id="BMWHome" class="BMW tabcontent">
+      <header>
+        <h2 id="beamer"><font size='6'><u>BMW</u></font></h2>
+        <p id="mpower"><font face="times new roman">Sheer driving pleasure</font></p></header>
+        <br>
+        <div id="BMWedit" contenteditable="true">
+          <p><font face="times new roman"><font color="blue"><font size='3'>The new M5 was presented to the public at the Frankfurt Motor Show (IAA) in September 2017. For the time being, the new M5 will be delivered exclusively as a sedan from spring 2018 at prices starting at 117,900 euros. At the start of sales, the limited edition model "M5 First Edition", which is limited to 400 copies, is priced at EUR 137,400.
+            BMW also has included a true rear wheel drive mode. The engine is an evolution of the S63 from the previous model. With a power of 441 kW (600 PS; 591 bhp) the new M5 has the same power as the limited edition "Competition Package" and "30 Jahre M5" models of the F10 generation, while the torque has been raised to 750 N⋅m (553 lb⋅ft), 70 Nm above the F10 M5. The car is now equipped with an eight-speed automatic transmission as opposed to the previous M5's 7-speed dual-clutch transmission. The F90 is the first M5 ever to only have an auto option. It accelerates to 100 km/h (62 mph) in 3.4 seconds, and to 200 km/h (124 mph) in 11.1 seconds. The top speed is limited to 250 km/h (155 mph), and without limiter 305 km/h (190 mph) with the optional M Driver's Package.</font></font></font></p>
+          </div>
+          <div id="updates">- Add to or edit the above text -
+          <input id="BMWedi"type="button" value="Save changes" onclick="BMWuserEdits()"/></div>
+          <br>
+          <br>
+          <img id="bmwpic" src="images/Manhart.jpg" class="w3-round" alt="M5" style="width:600px; height:300px;">
+          <p id="bmwcont"><font face="times new roman"><font size='5'>"The all-new <a href="https://www.bmw.com/en/bmw-models/m5-sedan.html">BMW M5</a> with xDrive drives like a rear-wheel powered car – with enhanced traction." - <font size='3'>Frank van Meel, BMW M GmbH</font></font></font></p>
+
+          <iframe id="bmwvid" width="560" height="315" src="https://www.youtube.com/embed/xUxtYl0iR78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <!--Create tab for Mercedes section-->
+        <div id="MercHome" class="Merc tabcontent">
+          <p id="silver"><font size='6'><font face="times new roman"><u>Mercedes-Benz</u></font></font><br>
+            <font size='3'><font face="times new roman">The best or nothing.</font></font></p>
+            <br>
+            <div id="mercedit" contenteditable="true">
+              <p id="merctext"><font color="white">The W212 replaced the W211 in 2009 (as a 2010 model). Official photos of the W212 were leaked on the internet on 9 December 2009 ahead of its 2009 Geneva Motor Show unveiling. Scans of a leaked brochure were posted onto the internet in January 2009, detailing the whole E-Class range including the new E 200 CGI and E 230 CGI with direct injected forced inducted engines. New features included a blind spot monitor, Lane Keeping Assist, Pre-safe with Attention Assist and Night View Assist Plus. In the United States the E-Class was priced nearly US$4,600 less than the previous model. The E-Class coupe is built in Bremen using the W204 C-class platform. The W212 estate was also announced and available from November 2009. The W212 cabriolet was announced 11 January 2010 at the North American International Auto Show for sale in March 2010 in Europe and in May 2010 in the United States.</font></p>
+            </div>
+            <div id="update">- Add to or edit the above text -
+            <input id="edi"type="button" value="Save changes" onclick="usersEdits()"/></div>
+            <br>
+
+            <div id="amg" class='col-sm-5'>
+              <img src="images/w212.jpg" class="w3-round" alt="E63 AMG" style="width:700px; height:300px;">
+              <p><font size='4'><i>"The <a href="https://www.mbusa.com/mercedes/vehicles/model/class-E/model-E63W4S">Mercedes-AMG 63</a> models are developed by AMG engineers to deliver the visceral experience those three letters stand for, and the performance promise they uphold."</i></font></p>
+
+              <iframe id="mercvid" width="560" height="315" src="https://www.youtube.com/embed/SEyKEh_qdRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!--Create styles and colors for the banner-->
+
+  </body>
+  </html>

@@ -1,0 +1,20 @@
+<h2>Log in to your account</h2>
+
+
+
+
+<script src="javascripts/Macon.js"></script>
+
+<form method="POST" action="/login">
+  <font color="white">Username:</font> <input id="username" name="username" placeholder="Enter username"/><br><br>
+  <font color="white">Password:</font> <input id="password" type="password" name="password" placeholder="Enter password"/><br><br>
+  <button id="submits" onclick="miFunction()">Log in</button> <input type="reset" id="res">
+</form><br>
+
+<p><font color="white">If you don't have an account, you can </font><a id="join" href="/signup">Sign up here</a></p>
+
+<div>
+<h1 id="feature"><u>Featured video this week</u></h1>
+
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7MJ_WoExzMU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
